@@ -5,3 +5,7 @@ memory
 
 # But keep README.md tracked
 !README.md
+dist
+.idea
+node_modules
+github

@@ -5,8 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-Content-Type-Options" content="nosniff">
 <title>FocusGuard</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&family=Exo+2:wght@300;400;600&display=swap">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -25,7 +23,7 @@
 <div class="alarm-banner" id="alarmBanner">
   <span class="alarm-icon" id="alarmIcon">🔔</span>
   <span id="alarmMsg">Session complete!</span>
-  <button class="btn btn-sm" onclick="app.dismissAlarm()">Dismiss</button>
+  <button class="btn btn-sm" id="dismissAlarmBtn">Dismiss</button>
 </div>
 
 <div class="main-card" id="mainCard">
@@ -46,19 +44,19 @@
 
   <!-- Control Buttons -->
   <div class="controls">
-    <button class="btn btn-primary" id="startStopBtn" onclick="app.toggleStartStop()">
+    <button class="btn btn-primary" id="startStopBtn">
       <svg width="14" height="14" fill="currentColor" id="startIcon" viewBox="0 0 16 16">
         <path d="M11.596 8.697L4.707 12.46A1 1 0 013 11.565V4.435a1 1 0 011.707-.714l6.889 3.765a1 1 0 010 1.712z"/>
       </svg>
       <span id="startLabel">START</span>
     </button>
-    <button class="btn" id="skipBtn" onclick="app.skipSession()" title="Skip to next session (Ctrl+K)">
+    <button class="btn" id="skipBtn" title="Skip to next session (Ctrl+K)">
       <svg width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
         <path d="M12.5 4a.5.5 0 00-1 0v3.248L5.233 3.612C4.713 3.308 4 3.678 4 4.308v7.384c0 .63.713 1 1.233.696L11.5 8.752V12a.5.5 0 001 0V4z"/>
       </svg>
       Skip
     </button>
-    <button class="btn btn-danger" id="resetBtn" onclick="app.resetTimer()" title="Reset (Ctrl+R)">
+    <button class="btn btn-danger" id="resetBtn" title="Reset (Ctrl+R)">
       <svg width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M8 3a5 5 0 104.546 2.914.5.5 0 00-.908-.417A4 4 0 118 4V3z"/>
         <path d="M8 4.466V.534a.25.25 0 00-.41-.192L5.23 2.308a.25.25 0 000 .384l2.36 1.966A.25.25 0 008 4.466z"/>
@@ -112,7 +110,7 @@
 
   <!-- Settings -->
   <div style="margin-top:1.2rem;text-align:center">
-    <button class="btn btn-sm" onclick="app.toggleSettings()" style="font-size:0.75rem;padding:7px 18px">
+    <button class="btn btn-sm" id="customizeBtn" style="font-size:0.75rem;padding:7px 18px">
       ⚙ Customize Durations
     </button>
   </div>
@@ -134,7 +132,7 @@
       <input type="number" class="setting-input" id="alarmRep" min="1" max="10" value="3">
       <span class="setting-unit">×</span>
     </div>
-    <button class="apply-btn" onclick="app.applySettings()">Apply & Reset Timer</button>
+    <button class="apply-btn" id="applySettingsBtn">Apply & Reset Timer</button>
   </div>
 
 </div>

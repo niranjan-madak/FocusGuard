@@ -346,10 +346,18 @@ function applySettings() {
   playClick();
 }
 
-// ── Event listeners ───────────────────────────────────────────────────────────
+// ── Event listeners ───────────────────────────────────────────────────────
 $('autoStart').addEventListener('change',    function() { state.autoStart    = this.checked; });
 $('soundEnabled').addEventListener('change', function() { state.soundEnabled = this.checked; });
 $('volSlider').addEventListener('input',     function() { state.volume       = parseFloat(this.value) || 0; });
+
+// Button event listeners (moved from onclick handlers for CSP compliance)
+$('startStopBtn').addEventListener('click', () => app.toggleStartStop());
+$('skipBtn').addEventListener('click', () => app.skipSession());
+$('resetBtn').addEventListener('click', () => app.resetTimer());
+$('dismissAlarmBtn').addEventListener('click', () => app.dismissAlarm());
+$('customizeBtn').addEventListener('click', () => app.toggleSettings());
+$('applySettingsBtn').addEventListener('click', () => app.applySettings());
 
 document.addEventListener('keydown', e => {
   if (e.target.tagName === 'INPUT') return;

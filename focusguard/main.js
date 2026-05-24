@@ -79,26 +79,27 @@ function createWindow() {
     },
   });
 
-  // ── Content-Security-Policy via session ──────────────────────────────────
-  mainWindow.webContents.session.webRequest.onHeadersReceived((details, cb) => {
-    cb({
-      responseHeaders: {
-        ...details.responseHeaders,
-        'Content-Security-Policy': [
-          "default-src 'self'; " +
-          "script-src 'self' 'unsafe-inline'; " +
-          "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; " +
-          "font-src https://fonts.gstatic.com 'self' data:; " +
-          "img-src 'self' data:; connect-src 'none'; " +
-          "object-src 'none'; base-uri 'self'; form-action 'none';"
-        ],
-        'X-Content-Type-Options':  ['nosniff'],
-        'X-Frame-Options':         ['DENY'],
-        'Referrer-Policy':         ['no-referrer'],
-        'Permissions-Policy':      ['geolocation=(), microphone=(), camera=()'],
-      }
-    });
-  });
+   // ── Content-Security-Policy via session ──────────────────────────────────
+   mainWindow.webContents.session.webRequest.onHeadersReceived((details, cb) => {
+     cb({
+       responseHeaders: {
+         ...details.responseHeaders,
+         'Content-Security-Policy': [
+           "default-src 'self'; " +
+           "script-src 'self'; " +
+           "style-src 'self'; " +
+           "font-src 'self' data:; " +
+           "img-src 'self' data:; " +
+           "connect-src 'none'; " +
+           "object-src 'none'; base-uri 'self'; form-action 'none';"
+         ],
+         'X-Content-Type-Options':  ['nosniff'],
+         'X-Frame-Options':         ['DENY'],
+         'Referrer-Policy':         ['no-referrer'],
+         'Permissions-Policy':      ['geolocation=(), microphone=(), camera=()'],
+       }
+     });
+   });
 
   mainWindow.loadFile(path.join(__dirname, 'src', 'index.html'));
 

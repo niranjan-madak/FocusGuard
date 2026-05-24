@@ -1,3 +1,40 @@
+/* Local fonts bundled with app */
+@font-face{
+  font-family:'Orbitron';font-weight:400;
+  src:url('../assets/fonts/Orbitron-Regular.woff2') format('woff2');
+  font-display:swap;
+}
+@font-face{
+  font-family:'Orbitron';font-weight:700;
+  src:url('../assets/fonts/Orbitron-Bold.woff2') format('woff2');
+  font-display:swap;
+}
+@font-face{
+  font-family:'Orbitron';font-weight:900;
+  src:url('../assets/fonts/Orbitron-Black.woff2') format('woff2');
+  font-display:swap;
+}
+@font-face{
+  font-family:'Share Tech Mono';font-weight:400;
+  src:url('../assets/fonts/ShareTechMono-Regular.woff2') format('woff2');
+  font-display:swap;
+}
+@font-face{
+  font-family:'Exo 2';font-weight:300;
+  src:url('../assets/fonts/Exo2-Light.woff2') format('woff2');
+  font-display:swap;
+}
+@font-face{
+  font-family:'Exo 2';font-weight:400;
+  src:url('../assets/fonts/Exo2-Regular.woff2') format('woff2');
+  font-display:swap;
+}
+@font-face{
+  font-family:'Exo 2';font-weight:600;
+  src:url('../assets/fonts/Exo2-SemiBold.woff2') format('woff2');
+  font-display:swap;
+}
+
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
   --bg:#05070f;--bg2:#0b0f1e;--bg3:#111827;--surface:#141c2e;

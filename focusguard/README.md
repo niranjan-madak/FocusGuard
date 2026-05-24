@@ -19,10 +19,13 @@ cd focusguard
 # 2. Install dependencies (~1 minute)
 npm install
 
-# 3. Run in development mode (optional — test before building)
+# 3. Download and setup fonts (required for local bundling)
+npm run setup:fonts
+
+# 4. Run in development mode (optional — test before building)
 npm start
 
-# 4. Build your installer
+# 5. Build your installer
 npm run dist              # auto-detects your OS
 # OR
 npm run dist:win          # Windows NSIS installer (.exe)
@@ -31,6 +34,8 @@ npm run dist:linux        # Linux AppImage + .deb
 ```
 
 The installer is saved to the `dist/` folder.
+
+**Note:** Font files will be bundled into your installer. For font setup details, see [FONT_SETUP.md](FONT_SETUP.md).
 
 ---
 
@@ -82,8 +87,8 @@ rm -rf icon.iconset
 |-------|---------------|
 | Renderer isolation | `nodeIntegration: false`, `contextIsolation: true`, `sandbox: true` |
 | IPC security | Channel allowlist in preload.js via `contextBridge` |
-| Content-Security-Policy | Injected via session.webRequest — blocks XSS, inline injection, external connections |
-| Network access | `connect-src 'none'` — app makes zero network requests after font load |
+| Content-Security-Policy | Strict CSP injected via session.webRequest — blocks XSS, inline injection, external connections |
+| Network access | `connect-src 'none'` — app makes zero network requests (fonts bundled locally) |
 | Input sanitization | All user inputs HTML-encoded before DOM insertion |
 | Prototype pollution | `Object.prototype` frozen on startup |
 | Single instance lock | Prevents second process spawning |
@@ -91,6 +96,9 @@ rm -rf icon.iconset
 | New window guard | `setWindowOpenHandler` returns `{ action: 'deny' }` |
 | Remote module | Disabled (not required) |
 | `eval()` | Not used anywhere in codebase |
+| Inline styles/scripts | Minimized per CSP — all event handlers use `addEventListener` |
+
+**Fonts:** All required fonts (Orbitron, Share Tech Mono, Exo 2) are bundled locally as WOFF2 files. Download fonts with `npm run setup:fonts`.
 
 ---
 

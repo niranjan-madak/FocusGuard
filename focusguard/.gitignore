@@ -1,0 +1,7 @@
+# Ignore memory folder
+memory
+# Ignore all Markdown files
+*.md
+
+# But keep README.md tracked
+!README.md

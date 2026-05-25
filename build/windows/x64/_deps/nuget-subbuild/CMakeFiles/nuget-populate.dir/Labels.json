@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/nuget-populate"
+		},
+		{
+			"file" : "D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/2f81d6242a8cbafc7f7705c7fe1a1673/nuget-populate.rule"
+		},
+		{
+			"file" : "D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/89eff4b73b2f368a6945f593a32ebe9d/nuget-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/bb9efe46cee3bcd28740e05d067be857/nuget-populate-build.rule"
+		},
+		{
+			"file" : "D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/bb9efe46cee3bcd28740e05d067be857/nuget-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/bb9efe46cee3bcd28740e05d067be857/nuget-populate-copyfile.rule"
+		},
+		{
+			"file" : "D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/bb9efe46cee3bcd28740e05d067be857/nuget-populate-download.rule"
+		},
+		{
+			"file" : "D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/bb9efe46cee3bcd28740e05d067be857/nuget-populate-install.rule"
+		},
+		{
+			"file" : "D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/bb9efe46cee3bcd28740e05d067be857/nuget-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/bb9efe46cee3bcd28740e05d067be857/nuget-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/bb9efe46cee3bcd28740e05d067be857/nuget-populate-test.rule"
+		},
+		{
+			"file" : "D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/bb9efe46cee3bcd28740e05d067be857/nuget-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nuget-populate"
+		],
+		"name" : "nuget-populate"
+	}
+}

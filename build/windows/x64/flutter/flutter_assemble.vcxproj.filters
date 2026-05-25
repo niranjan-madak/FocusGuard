@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Developed Softwares\GitHub-Repos\FocusGuard\build\windows\x64\CMakeFiles\a2053f1783bdfb889f40e7ed99fec360\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Developed Softwares\GitHub-Repos\FocusGuard\build\windows\x64\CMakeFiles\502f4e8ca6f2bc109af23583375d4e1a\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Developed Softwares\GitHub-Repos\FocusGuard\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Developed Softwares\GitHub-Repos\FocusGuard\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5F053324-BB6E-3F16-961E-D91EA7C0C826}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

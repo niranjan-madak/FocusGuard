@@ -1,0 +1,38 @@
+name: focusguard
+description: Deep Work Focus Timer — 75-minute sessions with 20-minute breaks
+publish_to: 'none'
+version: 1.0.1+2
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  audioplayers: ^6.1.0
+  flutter_local_notifications: ^18.0.1
+  wakelock_plus: ^1.2.10
+  shared_preferences: ^2.3.3
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  msix: ^3.16.7
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/
+    - assets/icon.png
+
+msix_config:
+  display_name: FocusGuard
+  publisher_display_name: Niranjan Madak
+  identity_name: com.madaklabs.focusguard.app
+  logo_path: assets/icon.png
+  msix_version: 1.0.1.2
+  capabilities: runFullTrust
+  install_certificate: true

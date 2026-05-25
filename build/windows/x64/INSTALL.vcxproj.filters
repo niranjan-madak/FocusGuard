@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Developed Softwares\GitHub-Repos\FocusGuard\build\windows\x64\CMakeFiles\a8de45f5c06d3dfc92923203d4f47759\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5F053324-BB6E-3F16-961E-D91EA7C0C826}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

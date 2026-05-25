@@ -1,0 +1,2192 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\nmada\\.local\\bin"
+        - "C:\\Users\\nmada\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\maven\\apache-maven-3.9.9\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2022.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Lens\\resources\\cli\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\tools\\flutter\\bin\\mingit\\cmd"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.6.3+84d3e95b4 for .NET Framework
+      Build started 5/25/2026 12:03:31 AM.
+      
+      Project "D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\4.2.3-msvc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\4.2.3-msvc3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\4.2.3-msvc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.86
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/CMakeFiles/4.2.3-msvc3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/nmada/.local/bin/"
+      - "C:/Users/nmada/AppData/Roaming/npm/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Lens/resources/cli/bin/"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Python/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/"
+      - "C:/tools/flutter/bin/mingit/cmd/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\nmada\\.local\\bin"
+        - "C:\\Users\\nmada\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\maven\\apache-maven-3.9.9\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2022.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Lens\\resources\\cli\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\tools\\flutter\\bin\\mingit\\cmd"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/nmada/.local/bin/"
+      - "C:/Users/nmada/AppData/Roaming/npm/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Lens/resources/cli/bin/"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Python/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/"
+      - "C:/tools/flutter/bin/mingit/cmd/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/Users/nmada/.local/bin/lld-link.com"
+      - "C:/Users/nmada/.local/bin/lld-link.exe"
+      - "C:/Users/nmada/.local/bin/lld-link"
+      - "C:/Users/nmada/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/nmada/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/nmada/AppData/Roaming/npm/lld-link"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/lld-link.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/lld-link.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/lld-link"
+      - "C:/Windows/SysWOW64/lld-link.com"
+      - "C:/Windows/SysWOW64/lld-link.exe"
+      - "C:/Windows/SysWOW64/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/SysWOW64/wbem/lld-link.com"
+      - "C:/Windows/SysWOW64/wbem/lld-link.exe"
+      - "C:/Windows/SysWOW64/wbem/lld-link"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/SysWOW64/OpenSSH/lld-link.com"
+      - "C:/Windows/SysWOW64/OpenSSH/lld-link.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/lld-link"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/lld-link.com"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/lld-link.exe"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/lld-link.com"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/lld-link.exe"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/lld-link"
+      - "C:/Program Files/Git LFS/lld-link.com"
+      - "C:/Program Files/Git LFS/lld-link.exe"
+      - "C:/Program Files/Git LFS/lld-link"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/lld-link.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/lld-link.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/lld-link"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/lld-link.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/lld-link.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/lld-link"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/lld-link.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/lld-link.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/lld-link"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/lld-link.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/lld-link.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/lld-link"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/lld-link.com"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/lld-link.exe"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/lld-link"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/lld-link"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Program Files/Lens/resources/cli/bin/lld-link.com"
+      - "C:/Program Files/Lens/resources/cli/bin/lld-link.exe"
+      - "C:/Program Files/Lens/resources/cli/bin/lld-link"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/lld-link"
+      - "C:/Users/nmada/AppData/Local/Python/bin/lld-link.com"
+      - "C:/Users/nmada/AppData/Local/Python/bin/lld-link.exe"
+      - "C:/Users/nmada/AppData/Local/Python/bin/lld-link"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/lld-link.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/lld-link.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/lld-link"
+      - "C:/tools/flutter/bin/mingit/cmd/lld-link.com"
+      - "C:/tools/flutter/bin/mingit/cmd/lld-link.exe"
+      - "C:/tools/flutter/bin/mingit/cmd/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\nmada\\.local\\bin"
+        - "C:\\Users\\nmada\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\maven\\apache-maven-3.9.9\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2022.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Lens\\resources\\cli\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\tools\\flutter\\bin\\mingit\\cmd"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/nmada/.local/bin/"
+      - "C:/Users/nmada/AppData/Roaming/npm/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Lens/resources/cli/bin/"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Python/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/"
+      - "C:/tools/flutter/bin/mingit/cmd/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\nmada\\.local\\bin"
+        - "C:\\Users\\nmada\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\maven\\apache-maven-3.9.9\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2022.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Lens\\resources\\cli\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\tools\\flutter\\bin\\mingit\\cmd"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/nmada/.local/bin/"
+      - "C:/Users/nmada/AppData/Roaming/npm/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Lens/resources/cli/bin/"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Python/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/"
+      - "C:/tools/flutter/bin/mingit/cmd/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
+      - "C:/Users/nmada/.local/bin/mt.com"
+      - "C:/Users/nmada/.local/bin/mt.exe"
+      - "C:/Users/nmada/.local/bin/mt"
+      - "C:/Users/nmada/AppData/Roaming/npm/mt.com"
+      - "C:/Users/nmada/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/nmada/AppData/Roaming/npm/mt"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/mt.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/mt.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/mt"
+      - "C:/Windows/SysWOW64/mt.com"
+      - "C:/Windows/SysWOW64/mt.exe"
+      - "C:/Windows/SysWOW64/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/SysWOW64/wbem/mt.com"
+      - "C:/Windows/SysWOW64/wbem/mt.exe"
+      - "C:/Windows/SysWOW64/wbem/mt"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/SysWOW64/OpenSSH/mt.com"
+      - "C:/Windows/SysWOW64/OpenSSH/mt.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/mt"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/mt.com"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/mt.exe"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/mt"
+      - "C:/ProgramData/chocolatey/bin/mt.com"
+      - "C:/ProgramData/chocolatey/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/bin/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/mt.com"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/mt.exe"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/mt"
+      - "C:/Program Files/Git LFS/mt.com"
+      - "C:/Program Files/Git LFS/mt.exe"
+      - "C:/Program Files/Git LFS/mt"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/mt.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/mt.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/mt"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/mt.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/mt.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/mt"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/mt.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/mt.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/mt"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/mt.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/mt.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/mt"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/mt.com"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/mt.exe"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/mt"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/mt.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/mt.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/mt"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Program Files/Lens/resources/cli/bin/mt.com"
+      - "C:/Program Files/Lens/resources/cli/bin/mt.exe"
+      - "C:/Program Files/Lens/resources/cli/bin/mt"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/mt"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/mt.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/mt.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/mt"
+      - "C:/Users/nmada/AppData/Local/Python/bin/mt.com"
+      - "C:/Users/nmada/AppData/Local/Python/bin/mt.exe"
+      - "C:/Users/nmada/AppData/Local/Python/bin/mt"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/mt.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/mt.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/mt"
+      - "C:/tools/flutter/bin/mingit/cmd/mt.com"
+      - "C:/tools/flutter/bin/mingit/cmd/mt.exe"
+      - "C:/tools/flutter/bin/mingit/cmd/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\nmada\\.local\\bin"
+        - "C:\\Users\\nmada\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\maven\\apache-maven-3.9.9\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2022.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Lens\\resources\\cli\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\tools\\flutter\\bin\\mingit\\cmd"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/nmada/.local/bin/"
+      - "C:/Users/nmada/AppData/Roaming/npm/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Lens/resources/cli/bin/"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Python/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/"
+      - "C:/tools/flutter/bin/mingit/cmd/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\nmada\\.local\\bin"
+        - "C:\\Users\\nmada\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\maven\\apache-maven-3.9.9\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2022.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Lens\\resources\\cli\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\tools\\flutter\\bin\\mingit\\cmd"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:584 (enable_language)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:557 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/nmada/.local/bin/"
+      - "C:/Users/nmada/AppData/Roaming/npm/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Lens/resources/cli/bin/"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Python/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/"
+      - "C:/tools/flutter/bin/mingit/cmd/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files/focusguard/bin/"
+      - "C:/Program Files/focusguard/sbin/"
+      - "C:/Program Files/focusguard/"
+    searched_directories:
+      - "C:/Users/nmada/.local/bin/rc.com"
+      - "C:/Users/nmada/.local/bin/rc.exe"
+      - "C:/Users/nmada/.local/bin/rc"
+      - "C:/Users/nmada/AppData/Roaming/npm/rc.com"
+      - "C:/Users/nmada/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/nmada/AppData/Roaming/npm/rc"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/rc.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/rc.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/rc"
+      - "C:/Windows/SysWOW64/rc.com"
+      - "C:/Windows/SysWOW64/rc.exe"
+      - "C:/Windows/SysWOW64/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/SysWOW64/wbem/rc.com"
+      - "C:/Windows/SysWOW64/wbem/rc.exe"
+      - "C:/Windows/SysWOW64/wbem/rc"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/SysWOW64/OpenSSH/rc.com"
+      - "C:/Windows/SysWOW64/OpenSSH/rc.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/rc"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/rc.com"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/rc.exe"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/rc"
+      - "C:/ProgramData/chocolatey/bin/rc.com"
+      - "C:/ProgramData/chocolatey/bin/rc.exe"
+      - "C:/ProgramData/chocolatey/bin/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/rc.com"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/rc.exe"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/rc"
+      - "C:/Program Files/Git LFS/rc.com"
+      - "C:/Program Files/Git LFS/rc.exe"
+      - "C:/Program Files/Git LFS/rc"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/rc.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/rc.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/rc"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/rc.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/rc.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/rc"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/rc.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/rc.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/rc"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/rc.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/rc.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/rc"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/rc.com"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/rc.exe"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/rc"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/rc.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/rc.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/rc"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Program Files/Lens/resources/cli/bin/rc.com"
+      - "C:/Program Files/Lens/resources/cli/bin/rc.exe"
+      - "C:/Program Files/Lens/resources/cli/bin/rc"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/rc"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/rc.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/rc.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/rc"
+      - "C:/Users/nmada/AppData/Local/Python/bin/rc.com"
+      - "C:/Users/nmada/AppData/Local/Python/bin/rc.exe"
+      - "C:/Users/nmada/AppData/Local/Python/bin/rc"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/rc.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/rc.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/rc"
+      - "C:/tools/flutter/bin/mingit/cmd/rc.com"
+      - "C:/tools/flutter/bin/mingit/cmd/rc.exe"
+      - "C:/tools/flutter/bin/mingit/cmd/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/rc.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/rc.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/rc"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc"
+      - "C:/Program Files/focusguard/bin/rc.com"
+      - "C:/Program Files/focusguard/bin/rc.exe"
+      - "C:/Program Files/focusguard/bin/rc"
+      - "C:/Program Files/focusguard/sbin/rc.com"
+      - "C:/Program Files/focusguard/sbin/rc.exe"
+      - "C:/Program Files/focusguard/sbin/rc"
+      - "C:/Program Files/focusguard/rc.com"
+      - "C:/Program Files/focusguard/rc.exe"
+      - "C:/Program Files/focusguard/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\nmada\\.local\\bin"
+        - "C:\\Users\\nmada\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\maven\\apache-maven-3.9.9\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2022.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Lens\\resources\\cli\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\tools\\flutter\\bin\\mingit\\cmd"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/focusguard"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files/focusguard"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-bt3ea3"
+      binary: "D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-bt3ea3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-bt3ea3'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_51bef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.6.3+84d3e95b4 for .NET Framework
+        Build started 5/25/2026 12:03:35 AM.
+        
+        Project "D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-bt3ea3\\cmTC_51bef.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-bt3ea3\\Debug\\".
+          Creating directory "cmTC_51bef.dir\\Debug\\cmTC_51bef.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_51bef.dir\\Debug\\cmTC_51bef.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_51bef.dir\\Debug\\cmTC_51bef.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_51bef.dir\\Debug\\\\" /Fd"cmTC_51bef.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36244 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_51bef.dir\\Debug\\\\" /Fd"cmTC_51bef.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-bt3ea3\\Debug\\cmTC_51bef.exe" /INCREMENTAL /ILK:"cmTC_51bef.dir\\Debug\\cmTC_51bef.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-bt3ea3/Debug/cmTC_51bef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-bt3ea3/Debug/cmTC_51bef.lib" /MACHINE:X64  /machine:x64 cmTC_51bef.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_51bef.vcxproj -> D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-bt3ea3\\Debug\\cmTC_51bef.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_51bef.dir\\Debug\\cmTC_51bef.tlog\\unsuccessfulbuild".
+          Touching "cmTC_51bef.dir\\Debug\\cmTC_51bef.tlog\\cmTC_51bef.lastbuildstate".
+        Done Building Project "D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-bt3ea3\\cmTC_51bef.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.00
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36244.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "flutter/ephemeral/.plugin_symlinks/audioplayers_windows/windows/CMakeLists.txt:17 (find_program)"
+    mode: "program"
+    variable: "NUGET"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nuget"
+    candidate_directories:
+      - "C:/Users/nmada/.local/bin/"
+      - "C:/Users/nmada/AppData/Roaming/npm/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Lens/resources/cli/bin/"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Python/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/"
+      - "C:/tools/flutter/bin/mingit/cmd/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files/focusguard/bin/"
+      - "C:/Program Files/focusguard/sbin/"
+      - "C:/Program Files/focusguard/"
+    searched_directories:
+      - "C:/Users/nmada/.local/bin/nuget.com"
+      - "C:/Users/nmada/.local/bin/nuget.exe"
+      - "C:/Users/nmada/.local/bin/nuget"
+      - "C:/Users/nmada/AppData/Roaming/npm/nuget.com"
+      - "C:/Users/nmada/AppData/Roaming/npm/nuget.exe"
+      - "C:/Users/nmada/AppData/Roaming/npm/nuget"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/nuget.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/nuget.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/nuget"
+      - "C:/Windows/SysWOW64/nuget.com"
+      - "C:/Windows/SysWOW64/nuget.exe"
+      - "C:/Windows/SysWOW64/nuget"
+      - "C:/Windows/nuget.com"
+      - "C:/Windows/nuget.exe"
+      - "C:/Windows/nuget"
+      - "C:/Windows/SysWOW64/wbem/nuget.com"
+      - "C:/Windows/SysWOW64/wbem/nuget.exe"
+      - "C:/Windows/SysWOW64/wbem/nuget"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/nuget.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/nuget.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/nuget"
+      - "C:/Windows/SysWOW64/OpenSSH/nuget.com"
+      - "C:/Windows/SysWOW64/OpenSSH/nuget.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/nuget"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/nuget.com"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/nuget.exe"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/nuget"
+      - "C:/ProgramData/chocolatey/bin/nuget.com"
+      - "C:/ProgramData/chocolatey/bin/nuget.exe"
+      - "C:/ProgramData/chocolatey/bin/nuget"
+      - "C:/Program Files/nodejs/nuget.com"
+      - "C:/Program Files/nodejs/nuget.exe"
+      - "C:/Program Files/nodejs/nuget"
+      - "C:/Program Files/Docker/Docker/resources/bin/nuget.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/nuget.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/nuget"
+      - "C:/Program Files/Git/cmd/nuget.com"
+      - "C:/Program Files/Git/cmd/nuget.exe"
+      - "C:/Program Files/Git/cmd/nuget"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/nuget.com"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/nuget.exe"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/nuget"
+      - "C:/Program Files/Git LFS/nuget.com"
+      - "C:/Program Files/Git LFS/nuget.exe"
+      - "C:/Program Files/Git LFS/nuget"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/nuget.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/nuget.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/nuget"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/nuget.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/nuget.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/nuget"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/nuget.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/nuget.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/nuget"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/nuget.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/nuget.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/nuget"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/nuget.com"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/nuget.exe"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/nuget"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/nuget.com"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/nuget.exe"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/nuget"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/nuget.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/nuget.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/nuget"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/nuget.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/nuget.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/nuget"
+      - "C:/Program Files/Lens/resources/cli/bin/nuget.com"
+      - "C:/Program Files/Lens/resources/cli/bin/nuget.exe"
+      - "C:/Program Files/Lens/resources/cli/bin/nuget"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/nuget.com"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/nuget.exe"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/nuget"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/nuget.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/nuget.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/nuget"
+      - "C:/Users/nmada/AppData/Local/Python/bin/nuget.com"
+      - "C:/Users/nmada/AppData/Local/Python/bin/nuget.exe"
+      - "C:/Users/nmada/AppData/Local/Python/bin/nuget"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/nuget.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/nuget.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/nuget"
+      - "C:/tools/flutter/bin/mingit/cmd/nuget.com"
+      - "C:/tools/flutter/bin/mingit/cmd/nuget.exe"
+      - "C:/tools/flutter/bin/mingit/cmd/nuget"
+      - "C:/Program Files/bin/nuget.com"
+      - "C:/Program Files/bin/nuget.exe"
+      - "C:/Program Files/bin/nuget"
+      - "C:/Program Files/sbin/nuget.com"
+      - "C:/Program Files/sbin/nuget.exe"
+      - "C:/Program Files/sbin/nuget"
+      - "C:/Program Files/nuget.com"
+      - "C:/Program Files/nuget.exe"
+      - "C:/Program Files/nuget"
+      - "C:/Program Files (x86)/bin/nuget.com"
+      - "C:/Program Files (x86)/bin/nuget.exe"
+      - "C:/Program Files (x86)/bin/nuget"
+      - "C:/Program Files (x86)/sbin/nuget.com"
+      - "C:/Program Files (x86)/sbin/nuget.exe"
+      - "C:/Program Files (x86)/sbin/nuget"
+      - "C:/Program Files (x86)/nuget.com"
+      - "C:/Program Files (x86)/nuget.exe"
+      - "C:/Program Files (x86)/nuget"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/nuget.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/nuget.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/nuget"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/nuget.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/nuget.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/nuget"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/nuget.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/nuget.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/nuget"
+      - "C:/Program Files/focusguard/bin/nuget.com"
+      - "C:/Program Files/focusguard/bin/nuget.exe"
+      - "C:/Program Files/focusguard/bin/nuget"
+      - "C:/Program Files/focusguard/sbin/nuget.com"
+      - "C:/Program Files/focusguard/sbin/nuget.exe"
+      - "C:/Program Files/focusguard/sbin/nuget"
+      - "C:/Program Files/focusguard/nuget.com"
+      - "C:/Program Files/focusguard/nuget.exe"
+      - "C:/Program Files/focusguard/nuget"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\nmada\\.local\\bin"
+        - "C:\\Users\\nmada\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\maven\\apache-maven-3.9.9\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2022.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Lens\\resources\\cli\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\tools\\flutter\\bin\\mingit\\cmd"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/focusguard"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files/focusguard"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:8 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\nmada\\.local\\bin"
+        - "C:\\Users\\nmada\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\maven\\apache-maven-3.9.9\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2022.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Lens\\resources\\cli\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\tools\\flutter\\bin\\mingit\\cmd"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/focusguard"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files/focusguard"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:8 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.6.3+84d3e95b4 for .NET Framework
+      Build started 5/25/2026 12:03:58 AM.
+      
+      Project "D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\4.2.3-msvc3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\4.2.3-msvc3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\4.2.3-msvc3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.87
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/CMakeFiles/4.2.3-msvc3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/nmada/.local/bin/"
+      - "C:/Users/nmada/AppData/Roaming/npm/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Lens/resources/cli/bin/"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Python/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/"
+      - "C:/tools/flutter/bin/mingit/cmd/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files/focusguard/bin/"
+      - "C:/Program Files/focusguard/sbin/"
+      - "C:/Program Files/focusguard/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/Users/nmada/.local/bin/lld-link.com"
+      - "C:/Users/nmada/.local/bin/lld-link.exe"
+      - "C:/Users/nmada/.local/bin/lld-link"
+      - "C:/Users/nmada/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/nmada/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/nmada/AppData/Roaming/npm/lld-link"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/lld-link.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/lld-link.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/lld-link"
+      - "C:/Windows/SysWOW64/lld-link.com"
+      - "C:/Windows/SysWOW64/lld-link.exe"
+      - "C:/Windows/SysWOW64/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/SysWOW64/wbem/lld-link.com"
+      - "C:/Windows/SysWOW64/wbem/lld-link.exe"
+      - "C:/Windows/SysWOW64/wbem/lld-link"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/SysWOW64/OpenSSH/lld-link.com"
+      - "C:/Windows/SysWOW64/OpenSSH/lld-link.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/lld-link"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/lld-link.com"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/lld-link.exe"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/lld-link.com"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/lld-link.exe"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/lld-link"
+      - "C:/Program Files/Git LFS/lld-link.com"
+      - "C:/Program Files/Git LFS/lld-link.exe"
+      - "C:/Program Files/Git LFS/lld-link"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/lld-link.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/lld-link.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/lld-link"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/lld-link.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/lld-link.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/lld-link"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/lld-link.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/lld-link.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/lld-link"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/lld-link.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/lld-link.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/lld-link"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/lld-link.com"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/lld-link.exe"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/lld-link"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/lld-link"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Program Files/Lens/resources/cli/bin/lld-link.com"
+      - "C:/Program Files/Lens/resources/cli/bin/lld-link.exe"
+      - "C:/Program Files/Lens/resources/cli/bin/lld-link"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/lld-link"
+      - "C:/Users/nmada/AppData/Local/Python/bin/lld-link.com"
+      - "C:/Users/nmada/AppData/Local/Python/bin/lld-link.exe"
+      - "C:/Users/nmada/AppData/Local/Python/bin/lld-link"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/lld-link.com"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/lld-link.exe"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/lld-link"
+      - "C:/tools/flutter/bin/mingit/cmd/lld-link.com"
+      - "C:/tools/flutter/bin/mingit/cmd/lld-link.exe"
+      - "C:/tools/flutter/bin/mingit/cmd/lld-link"
+      - "C:/Program Files/bin/lld-link.com"
+      - "C:/Program Files/bin/lld-link.exe"
+      - "C:/Program Files/bin/lld-link"
+      - "C:/Program Files/sbin/lld-link.com"
+      - "C:/Program Files/sbin/lld-link.exe"
+      - "C:/Program Files/sbin/lld-link"
+      - "C:/Program Files/lld-link.com"
+      - "C:/Program Files/lld-link.exe"
+      - "C:/Program Files/lld-link"
+      - "C:/Program Files (x86)/bin/lld-link.com"
+      - "C:/Program Files (x86)/bin/lld-link.exe"
+      - "C:/Program Files (x86)/bin/lld-link"
+      - "C:/Program Files (x86)/sbin/lld-link.com"
+      - "C:/Program Files (x86)/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/sbin/lld-link"
+      - "C:/Program Files (x86)/lld-link.com"
+      - "C:/Program Files (x86)/lld-link.exe"
+      - "C:/Program Files (x86)/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/lld-link"
+      - "C:/Program Files/focusguard/bin/lld-link.com"
+      - "C:/Program Files/focusguard/bin/lld-link.exe"
+      - "C:/Program Files/focusguard/bin/lld-link"
+      - "C:/Program Files/focusguard/sbin/lld-link.com"
+      - "C:/Program Files/focusguard/sbin/lld-link.exe"
+      - "C:/Program Files/focusguard/sbin/lld-link"
+      - "C:/Program Files/focusguard/lld-link.com"
+      - "C:/Program Files/focusguard/lld-link.exe"
+      - "C:/Program Files/focusguard/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\nmada\\.local\\bin"
+        - "C:\\Users\\nmada\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\maven\\apache-maven-3.9.9\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2022.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Lens\\resources\\cli\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\tools\\flutter\\bin\\mingit\\cmd"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/focusguard"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files/focusguard"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:8 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-6a61pz"
+      binary: "D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-6a61pz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-6a61pz'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_561ff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.6.3+84d3e95b4 for .NET Framework
+        Build started 5/25/2026 12:04:01 AM.
+        
+        Project "D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-6a61pz\\cmTC_561ff.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-6a61pz\\Debug\\".
+          Creating directory "cmTC_561ff.dir\\Debug\\cmTC_561ff.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_561ff.dir\\Debug\\cmTC_561ff.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_561ff.dir\\Debug\\cmTC_561ff.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_561ff.dir\\Debug\\\\" /Fd"cmTC_561ff.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36244 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_561ff.dir\\Debug\\\\" /Fd"cmTC_561ff.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-6a61pz\\Debug\\cmTC_561ff.exe" /INCREMENTAL /ILK:"cmTC_561ff.dir\\Debug\\cmTC_561ff.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-6a61pz/Debug/cmTC_561ff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-6a61pz/Debug/cmTC_561ff.lib" /MACHINE:X64  /machine:x64 cmTC_561ff.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_561ff.vcxproj -> D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-6a61pz\\Debug\\cmTC_561ff.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_561ff.dir\\Debug\\cmTC_561ff.tlog\\unsuccessfulbuild".
+          Touching "cmTC_561ff.dir\\Debug\\cmTC_561ff.tlog\\cmTC_561ff.lastbuildstate".
+        Done Building Project "D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-6a61pz\\cmTC_561ff.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.79
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:8 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:8 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36244.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/FindJNI.cmake:538 (find_library)"
+      - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:20 (find_package)"
+    mode: "library"
+    variable: "JAVA_JVM_LIBRARY"
+    description: "Java Virtual Machine library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "jvm"
+    candidate_directories:
+      - "C:/Users/nmada/.local/bin/"
+      - "C:/Users/nmada/AppData/Roaming/npm/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Lens/resources/cli/bin/"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Python/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/"
+      - "C:/tools/flutter/bin/mingit/cmd/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/lib/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files/focusguard/lib/"
+      - "C:/Program Files/focusguard/"
+      - "C:/Program Files/focusguard/bin/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "/bin/"
+      - "C:/Program Files/Java/jdk-21.0.10/lib/"
+      - "C:/Program Files/Java/jdk-21.0.10/lib/client/"
+      - "C:/Program Files/Java/jdk-21.0.10/lib/minimal/"
+      - "C:/Program Files/Java/jdk-21.0.10/lib/server/"
+      - "C:/Program Files/Java/jdk-21.0.10/lib/zero/"
+      - "C:/Program Files/Java/jdk-21.0.10/lib/j9vm/"
+      - "C:/Program Files/Java/jdk-21.0.10/lib/default/"
+      - "C:/Program Files/Java/jdk-21.0.10/"
+      - "C:/Program Files/Java/jdk-21.0.10/client/"
+      - "C:/Program Files/Java/jdk-21.0.10/minimal/"
+      - "C:/Program Files/Java/jdk-21.0.10/server/"
+      - "C:/Program Files/Java/jdk-21.0.10/zero/"
+      - "C:/Program Files/Java/jdk-21.0.10/j9vm/"
+      - "C:/Program Files/Java/jdk-21.0.10/default/"
+      - "C:/Program Files/Amazon Corretto/jdk17.0.18_9/lib/"
+      - "C:/Program Files/Amazon Corretto/jdk17.0.18_9/lib/client/"
+      - "C:/Program Files/Amazon Corretto/jdk17.0.18_9/lib/minimal/"
+      - "C:/Program Files/Amazon Corretto/jdk17.0.18_9/lib/server/"
+      - "C:/Program Files/Amazon Corretto/jdk17.0.18_9/lib/zero/"
+      - "C:/Program Files/Amazon Corretto/jdk17.0.18_9/lib/j9vm/"
+      - "C:/Program Files/Amazon Corretto/jdk17.0.18_9/lib/default/"
+    searched_directories:
+      - "C:/Users/nmada/.local/bin/"
+      - "C:/Users/nmada/AppData/Roaming/npm/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Lens/resources/cli/bin/"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Python/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/"
+      - "C:/tools/flutter/bin/mingit/cmd/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/lib/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files/focusguard/lib/"
+      - "C:/Program Files/focusguard/"
+      - "C:/Program Files/focusguard/bin/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "/bin/"
+    found: "C:/Program Files/Java/jdk-21.0.10/lib/jvm.lib"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\nmada\\.local\\bin"
+        - "C:\\Users\\nmada\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\maven\\apache-maven-3.9.9\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2022.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Lens\\resources\\cli\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\tools\\flutter\\bin\\mingit\\cmd"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/focusguard"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files/focusguard"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/focusguard/bin"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/FindJNI.cmake:566 (find_path)"
+      - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:20 (find_package)"
+    mode: "path"
+    variable: "JAVA_INCLUDE_PATH"
+    description: "JNI include directory"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "jni.h"
+    candidate_directories:
+      - "C:/Users/nmada/.local/bin/"
+      - "C:/Users/nmada/AppData/Roaming/npm/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Lens/resources/cli/bin/"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Python/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/"
+      - "C:/tools/flutter/bin/mingit/cmd/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/include/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files/focusguard/include/"
+      - "C:/Program Files/focusguard/"
+      - "C:/Program Files/Java/jdk-21.0.10/include/"
+      - "C:/Program Files/Amazon Corretto/jdk17.0.18_9/include/"
+    searched_directories:
+      - "C:/Users/nmada/.local/bin/jni.h"
+      - "C:/Users/nmada/AppData/Roaming/npm/jni.h"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/jni.h"
+      - "C:/Windows/SysWOW64/jni.h"
+      - "C:/Windows/jni.h"
+      - "C:/Windows/SysWOW64/wbem/jni.h"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/jni.h"
+      - "C:/Windows/SysWOW64/OpenSSH/jni.h"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/jni.h"
+      - "C:/ProgramData/chocolatey/bin/jni.h"
+      - "C:/Program Files/nodejs/jni.h"
+      - "C:/Program Files/Docker/Docker/resources/bin/jni.h"
+      - "C:/Program Files/Git/cmd/jni.h"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/jni.h"
+      - "C:/Program Files/Git LFS/jni.h"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/jni.h"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/jni.h"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/jni.h"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/jni.h"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/jni.h"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/jni.h"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/jni.h"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/jni.h"
+      - "C:/Program Files/Lens/resources/cli/bin/jni.h"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/jni.h"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/jni.h"
+      - "C:/Users/nmada/AppData/Local/Python/bin/jni.h"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/jni.h"
+      - "C:/tools/flutter/bin/mingit/cmd/jni.h"
+      - "C:/Program Files/include/jni.h"
+      - "C:/Program Files/jni.h"
+      - "C:/Program Files (x86)/include/jni.h"
+      - "C:/Program Files (x86)/jni.h"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/include/jni.h"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/jni.h"
+      - "C:/Program Files/focusguard/include/jni.h"
+      - "C:/Program Files/focusguard/jni.h"
+    found: "C:/Program Files/Java/jdk-21.0.10/include/"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\nmada\\.local\\bin"
+        - "C:\\Users\\nmada\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\maven\\apache-maven-3.9.9\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2022.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Lens\\resources\\cli\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\tools\\flutter\\bin\\mingit\\cmd"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/focusguard"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files/focusguard"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CheckSourceCompiles.cmake:205 (cmake_check_source_compiles)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/FindJNI.cmake:590 (check_source_compiles)"
+      - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:20 (find_package)"
+    directories:
+      source: "D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-71z47b"
+      binary: "D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-71z47b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "JNI_INCLUDE_PATH2_OPTIONAL"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Developed Softwares/GitHub-Repos/FocusGuard/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-71z47b'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f55fd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.6.3+84d3e95b4 for .NET Framework
+        Build started 5/25/2026 12:04:04 AM.
+        
+        Project "D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-71z47b\\cmTC_f55fd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-71z47b\\Debug\\".
+          Creating directory "cmTC_f55fd.dir\\Debug\\cmTC_f55fd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f55fd.dir\\Debug\\cmTC_f55fd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f55fd.dir\\Debug\\cmTC_f55fd.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Program Files\\Java\\jdk-21.0.10\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D JNI_INCLUDE_PATH2_OPTIONAL /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f55fd.dir\\Debug\\\\" /Fd"cmTC_f55fd.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-71z47b\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36244 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Program Files\\Java\\jdk-21.0.10\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D JNI_INCLUDE_PATH2_OPTIONAL /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f55fd.dir\\Debug\\\\" /Fd"cmTC_f55fd.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-71z47b\\src.c"
+          src.c
+        C:\\Program Files\\Java\\jdk-21.0.10\\include\\jni.h(45,10): error C1083: Cannot open include file: 'jni_md.h': No such file or directory [D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-71z47b\\cmTC_f55fd.vcxproj]
+          (compiling source file 'src.c')
+          
+        Done Building Project "D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-71z47b\\cmTC_f55fd.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-71z47b\\cmTC_f55fd.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Program Files\\Java\\jdk-21.0.10\\include\\jni.h(45,10): error C1083: Cannot open include file: 'jni_md.h': No such file or directory [D:\\Developed Softwares\\GitHub-Repos\\FocusGuard\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-71z47b\\cmTC_f55fd.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:02.41
+        
+      exitCode: 1
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/FindJNI.cmake:606 (find_path)"
+      - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:20 (find_package)"
+    mode: "path"
+    variable: "JAVA_INCLUDE_PATH2"
+    description: "jni_md.h jniport.h include directory"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "jni_md.h"
+      - "jniport.h"
+    candidate_directories:
+      - "C:/Users/nmada/.local/bin/"
+      - "C:/Users/nmada/AppData/Roaming/npm/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Lens/resources/cli/bin/"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/"
+      - "C:/Users/nmada/AppData/Local/Python/bin/"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/"
+      - "C:/tools/flutter/bin/mingit/cmd/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/include/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files/focusguard/include/"
+      - "C:/Program Files/focusguard/"
+      - "C:/Program Files/Java/jdk-21.0.10/include/"
+      - "C:/Program Files/Java/jdk-21.0.10/include/darwin/"
+      - "C:/Program Files/Java/jdk-21.0.10/include/win32/"
+      - "C:/Program Files/Java/jdk-21.0.10/include/linux/"
+      - "C:/Program Files/Java/jdk-21.0.10/include/freebsd/"
+      - "C:/Program Files/Java/jdk-21.0.10/include/openbsd/"
+      - "C:/Program Files/Java/jdk-21.0.10/include/solaris/"
+      - "C:/Program Files/Java/jdk-21.0.10/include/hp-ux/"
+      - "C:/Program Files/Java/jdk-21.0.10/include/alpha/"
+      - "C:/Program Files/Java/jdk-21.0.10/include/aix/"
+    searched_directories:
+      - "C:/Users/nmada/.local/bin/jni_md.h"
+      - "C:/Users/nmada/AppData/Roaming/npm/jni_md.h"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/jni_md.h"
+      - "C:/Windows/SysWOW64/jni_md.h"
+      - "C:/Windows/jni_md.h"
+      - "C:/Windows/SysWOW64/wbem/jni_md.h"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/jni_md.h"
+      - "C:/Windows/SysWOW64/OpenSSH/jni_md.h"
+      - "C:/Program Files/maven/apache-maven-3.9.9/bin/jni_md.h"
+      - "C:/ProgramData/chocolatey/bin/jni_md.h"
+      - "C:/Program Files/nodejs/jni_md.h"
+      - "C:/Program Files/Docker/Docker/resources/bin/jni_md.h"
+      - "C:/Program Files/Git/cmd/jni_md.h"
+      - "C:/Users/nmada/AppData/Local/Python/pythoncore-3.14-64/Scripts/jni_md.h"
+      - "C:/Program Files/Git LFS/jni_md.h"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/Scripts/jni_md.h"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python314/jni_md.h"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/Scripts/jni_md.h"
+      - "C:/Users/nmada/AppData/Local/Programs/Python/Python310/jni_md.h"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/jni_md.h"
+      - "C:/Windows/SysWOW64/config/systemprofile/AppData/Local/Microsoft/WindowsApps/jni_md.h"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin/jni_md.h"
+      - "C:/Users/nmada/AppData/Local/Programs/Microsoft VS Code/bin/jni_md.h"
+      - "C:/Program Files/Lens/resources/cli/bin/jni_md.h"
+      - "C:/Users/nmada/AppData/Local/GitHubDesktop/bin/jni_md.h"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/jni_md.h"
+      - "C:/Users/nmada/AppData/Local/Python/bin/jni_md.h"
+      - "C:/Users/nmada/AppData/Local/Programs/Ollama/jni_md.h"
+      - "C:/tools/flutter/bin/mingit/cmd/jni_md.h"
+      - "C:/Program Files/include/jni_md.h"
+      - "C:/Program Files/jni_md.h"
+      - "C:/Program Files (x86)/include/jni_md.h"
+      - "C:/Program Files (x86)/jni_md.h"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/include/jni_md.h"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/jni_md.h"
+      - "C:/Program Files/focusguard/include/jni_md.h"
+      - "C:/Program Files/focusguard/jni_md.h"
+      - "C:/Program Files/Java/jdk-21.0.10/include/jni_md.h"
+      - "C:/Program Files/Java/jdk-21.0.10/include/darwin/jni_md.h"
+    found: "C:/Program Files/Java/jdk-21.0.10/include/win32/"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\nmada\\.local\\bin"
+        - "C:\\Users\\nmada\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\maven\\apache-maven-3.9.9\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2022.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Lens\\resources\\cli\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\nmada\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\nmada\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\tools\\flutter\\bin\\mingit\\cmd"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/focusguard"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files/focusguard"
+...

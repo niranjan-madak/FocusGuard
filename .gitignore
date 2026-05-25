@@ -1,5 +1,8 @@
-dist
+# ignore these files and folders from git tracking
 .idea
-node_modules
-github
-.windsurfrules
+build
+# Ignore all Markdown files
+*.md
+
+# But keep README.md tracked
+!README.md

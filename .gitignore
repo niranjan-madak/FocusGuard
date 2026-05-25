@@ -1,6 +1,7 @@
 # ignore these files and folders from git tracking
 .idea
 build
+memory
 # Ignore all Markdown files
 *.md
 

@@ -1,6 +1,10 @@
 # ignore these files and folders from git tracking
 # MadakLabs framework file
 MadakLabs_SDLC_Master_Briefing.docx
+# AI agent related files
+/memory
+/aiagent-generated-artifacts
+/Snapshots
 
 # Package resolution file (deprecated but may appear)
 .packages

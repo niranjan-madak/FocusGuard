@@ -1,4 +1,6 @@
 # ignore these files and folders from git tracking
+# MadakLabs framework file
+MadakLabs_SDLC_Master_Briefing.docx
 
 # Package resolution file (deprecated but may appear)
 .packages

@@ -22,8 +22,8 @@ A cross-platform focus timer built with Flutter. 75-minute focus sessions, 20-mi
 | Windows | ✅ |
 | Android | ✅ |
 | iOS | ✅ |
-| macOS | ✅ |
 | Linux | ✅ |
+| macOS | 🔲 Planned |
 
 ---
 
@@ -43,8 +43,8 @@ flutter run
 ```bash
 flutter run -d windows
 flutter run -d android
-flutter run -d macos
 flutter run -d linux
+# flutter run -d macos   ← not yet implemented (planned)
 ```
 
 ---
@@ -56,8 +56,8 @@ See **[build_and_launch.md](build_and_launch.md)** for complete instructions:
 - MSIX installer (Windows)
 - APK / AAB (Android)
 - IPA (iOS)
-- DMG (macOS)
 - AppImage / deb (Linux)
+- DMG (macOS) ← planned, not yet implemented
 - Production checklist
 
 ---
@@ -106,3 +106,11 @@ windows/
 ## License
 
 MIT
+
+---
+
+## SDLC Framework
+
+_MadakLabs SDLC Framework v1.0 adopted: S01 / 2026-05-26._  
+_All framework artifacts are in `aiagent-generated-artifacts/FocusGuard/`._  
+_Agent memory files are in `memory/`._

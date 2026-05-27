@@ -200,7 +200,7 @@ class _StatusBadgeState extends State<_StatusBadge>
         children: [
           AnimatedBuilder(
             animation: _ctrl,
-            builder: (_, __) => Opacity(
+            builder: (_, _) => Opacity(
               opacity: m.paused ? 0.4 : (0.25 + 0.75 * _ctrl.value),
               child: Container(
                 width: 7, height: 7,
@@ -514,7 +514,7 @@ class _Toggle extends StatelessWidget {
         Switch(
           value: value,
           onChanged: onChanged,
-          activeColor: C.mc(isFocus),
+          activeThumbColor: C.mc(isFocus),
           activeTrackColor: C.md(isFocus),
           inactiveThumbColor: C.text3,
           inactiveTrackColor: C.bg3,

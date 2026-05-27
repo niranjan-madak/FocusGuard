@@ -69,9 +69,9 @@ class _DotState extends State<_Dot> with SingleTickerProviderStateMixin {
     Widget dot = Container(
       width: 26, height: 7,
       decoration: BoxDecoration(
-        color: widget.color.withOpacity(widget.pulse ? 1.0 : 0.65),
+        color: widget.color.withValues(alpha: widget.pulse ? 1.0 : 0.65),
         borderRadius: BorderRadius.circular(4),
-        border: Border.all(color: widget.color.withOpacity(0.8)),
+        border: Border.all(color: widget.color.withValues(alpha: 0.8)),
       ),
     );
 

@@ -50,9 +50,9 @@ class TimerModel extends ChangeNotifier {
 
   // ── Controls ─────────────────────────────────────────────────────────────────
   void toggleStartStop() {
-    if (!running)      _start();
-    else if (!paused)  _pause();
-    else               _resume();
+    if (!running)      { _start(); }
+    else if (!paused)  { _pause(); }
+    else               { _resume(); }
     if (soundEnabled) audio.playClick(volume);
   }
 

@@ -36,12 +36,12 @@ class _SettingsPanelState extends State<SettingsPanel> {
   }
 
   void _apply() {
-    final fd = int.tryParse(_focusCtrl.text) ?? 75;
-    final bd = int.tryParse(_breakCtrl.text) ?? 20;
-    widget.onApply(
-      focusM: fd.clamp(1, 240),
-      breakM: bd.clamp(1, 120),
-    );
+    final fd = (int.tryParse(_focusCtrl.text) ?? 75).clamp(1, 240);
+    final bd = (int.tryParse(_breakCtrl.text) ?? 20).clamp(1, 120);
+    // Reflect the clamped value back so the user sees what was applied.
+    _focusCtrl.text = '$fd';
+    _breakCtrl.text = '$bd';
+    widget.onApply(focusM: fd, breakM: bd);
   }
 
   @override
@@ -59,9 +59,9 @@ class _SettingsPanelState extends State<SettingsPanel> {
         children: [
           Text('SETTINGS', style: orbitron(10, FontWeight.w400, C.text3)),
           const SizedBox(height: 12),
-          _Row(label: 'Focus Duration', ctrl: _focusCtrl, unit: 'min'),
+          _Row(label: 'Focus Duration', ctrl: _focusCtrl, unit: 'min', range: '1 – 240'),
           const SizedBox(height: 10),
-          _Row(label: 'Break Duration', ctrl: _breakCtrl, unit: 'min'),
+          _Row(label: 'Break Duration', ctrl: _breakCtrl, unit: 'min', range: '1 – 120'),
           const SizedBox(height: 12),
           SizedBox(
             width: double.infinity,
@@ -89,8 +89,9 @@ class _Row extends StatelessWidget {
   final String label;
   final TextEditingController ctrl;
   final String unit;
+  final String range;
 
-  const _Row({required this.label, required this.ctrl, required this.unit});
+  const _Row({required this.label, required this.ctrl, required this.unit, required this.range});
 
   @override
   Widget build(BuildContext context) {
@@ -109,6 +110,8 @@ class _Row extends StatelessWidget {
               filled: true,
               fillColor: C.surface,
               contentPadding: const EdgeInsets.symmetric(vertical: 6),
+              helperText: range,
+              helperStyle: orbitron(9, FontWeight.w400, C.text3),
               enabledBorder: OutlineInputBorder(
                 borderSide: const BorderSide(color: C.border2),
                 borderRadius: BorderRadius.circular(5),
